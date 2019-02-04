@@ -412,6 +412,10 @@ nav{
   background-color: #BABABA;
 }
 
+.exhibit-mobile{
+  display:none;
+}
+
 @media only screen and (max-width:480px){
   .exhibit{
     margin-top:0rem;
@@ -422,6 +426,7 @@ nav{
   }
 
   .exhibit-mobile{
+    display: block;
     margin-bottom: 1.5rem;
   }
 }
